@@ -10,14 +10,11 @@ All benchmarks are executed on the **Fritz cluster** using Intel compilers and S
 
 PfTS-assignments:
   Assignment0:
-    - Assignment0.cpp                 # C++ source code
-    - run_job_assignment0.sh         # SLURM job script
-    - assignment0_report.tex         # LaTeX report
-    - assignment0_report.pdf         # Compiled PDF report
-    - ln2_output.txt                 # Terminal output file
-    - terminal_output_point1.png     # Screenshot (Point 1)
-    - terminal_output_point2.png     # Screenshot (Point 2)
-    - terminal_output_point4.png     # Screenshot (Point 4)
+      Assignment0.cpp                 # C++ source code
+      run_job_assignment0.sh         # SLURM job script
+      assignment0_report.tex         # LaTeX report
+      assignment0_report.pdf         # Compiled PDF report
+      ln2_output.txt                 # Terminal output file
   Assignment1:                       # Placeholder for next assignment
     - (to be added)
 
