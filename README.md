@@ -16,9 +16,6 @@ PfTS-assignments:
     - assignment0_report.tex         # LaTeX report
     - assignment0_report.pdf         # Compiled PDF report
     - ln2_output.txt                 # Terminal output file
-    - terminal_output_point1.png     # Screenshot for Point 1
-    - terminal_output_point2.png     # Screenshot for Point 2
-    - terminal_output_point4.png     # Screenshot for Point 4
   Assignment1:
     - (to be added)                  # Placeholder for next assignment
 ```
