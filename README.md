@@ -8,15 +8,19 @@ All benchmarks are executed on the **Fritz cluster** using Intel compilers and S
 
 ## Structure
 
-PfTS-assignments/
-├── Assignment0/
-│ ├── Assignment0.cpp
-│ ├── run_job_assignment0.sh
-│ ├── assignment0_report.pdf
-│ ├── terminal_output_pointX.png
-│ └── ...
-├── Assignment1/
-│ └── (To be added)
+PfTS-assignments:
+  Assignment0:
+    - Assignment0.cpp                 # C++ source code
+    - run_job_assignment0.sh         # SLURM job script
+    - assignment0_report.tex         # LaTeX report
+    - assignment0_report.pdf         # Compiled PDF report
+    - ln2_output.txt                 # Terminal output file
+    - terminal_output_point1.png     # Screenshot (Point 1)
+    - terminal_output_point2.png     # Screenshot (Point 2)
+    - terminal_output_point4.png     # Screenshot (Point 4)
+  Assignment1:                       # Placeholder for next assignment
+    - (to be added)
+
 
 
 ---
