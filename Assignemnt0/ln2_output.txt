@@ -1,0 +1,40 @@
+### Starting TaskPrologue of job 1982446 on f1256 at Sat May  3 18:23:13 CEST 2025
+#   SLURM_JOB_NODELIST=f1256
+#   SLURM_JOB_NUM_NODES=1
+#   SLURM_NTASKS=
+#   SLURM_NPROCS=
+#   SLURM_TASKS_PER_NODE=72
+#   SLURM_JOB_CPUS_PER_NODE=72
+#   SLURM_EXPORT_ENV=NONE
+Running on cores 0-71 with governor powersave
+### Finished TaskPrologue
+Running with fixed CPU frequency (2.4 GHz)...
+ln(2) ≈ 0.693147 with N = 163840
+Elapsed time: 0.000136899 seconds
+Time per iteration: 8.35565e-10 seconds
+Estimated CPU cycles per iteration: 2.00536
+Running with performance governor...
+ln(2) ≈ 0.693147 with N = 327680
+Elapsed time: 0.000187718 seconds
+Time per iteration: 5.7287e-10 seconds
+Estimated CPU cycles per iteration: 1.37489
+=== JOB_STATISTICS ===
+=== current date     : Sat May  3 18:23:18 CEST 2025
+= Job-ID             : 1982446 on fritz
+= Job-Name           : ln2
+= Job-Command        : /home/hpc/ptfs/ptfs356v/run_job_assignment0.sh
+= Initial workdir    : /home/hpc/ptfs/ptfs356v
+= Queue/Partition    : singlenode
+= Slurm account      : ptfs with QOS=ptfs
+= Requested resources:  for 00:08:00
+= Elapsed runtime    : 00:00:08
+= Total RAM usage    : 0.1 GiB 
+= Node list          : f1256
+= Subm/Elig/Start/End: 2025-05-03T18:22:45 / 2025-05-03T18:22:45 / 2025-05-03T18:23:10 / 2025-05-03T18:23:18
+======================
+=== Quota infos ======
+    Path              Used     SoftQ    HardQ    Gracetime  Filec    FileQ    FiHaQ    FileGrace    
+    /home/woody          0.0K  1000.0G  1500.0G        N/A       1    5,000K   7,500K        N/A    
+    /home/hpc          387.0M   104.9G   209.7G        N/A   1,721      500K   1,000K        N/A    
+    /lustre              4.0K     0.0K     0.0K        N/A       1       80K     250K        N/A    
+======================
